@@ -2,7 +2,7 @@
 
 include dirname(__FILE__).'/mailchimp.php';
 $api = 'f1440ab2ace46f27a645bdbc67ef381e-us4';
-$listid = 'e67c1c8c5f';
+$listid = 'b2e037880a';
 
 $mailchimp = new \Drewm\MailChimp($api);
 $post = array();
