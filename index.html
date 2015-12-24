@@ -324,12 +324,6 @@ window.YUI&&YUI.add("squarespace-imageloader",function(a){});
 	      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1440714557931" id="page-55df8f08e4b0b7e71c4ab059"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block newsletter-block sqs-block-newsletter rendered" data-block-type="51" id="block-yui_3_17_2_22_1440713902689_8350"><div class="sqs-block-content"><div class="newsletter-form-wrapper  ">
 
   <form class="newsletter-form" autocomplete="on" method="POST" id="formform">
-    <script>
-      document.getElementById('formform').addEventListener('submit', function(e) {
-          e.preventDefault();
-          alert('submit to mailchimp!');
-      });
-    </script>
 
     <header class="newsletter-form-header">
       <h2 class="newsletter-form-header-title">Subscribe</h2>
@@ -347,7 +341,7 @@ window.YUI&&YUI.add("squarespace-imageloader",function(a){});
           
             <div id="email-yui_3_17_2_22_1440713902689_8357" class="newsletter-form-field-wrapper form-item field email required">
               <label class="newsletter-form-field-label title" for="email-yui_3_17_2_22_1440713902689_8357-field">Email Address</label>
-              <input id="email-yui_3_17_2_22_1440713902689_8357-field" class="newsletter-form-field-element field-element" name="email" x-autocompletetype="email" type="text" spellcheck="false" placeholder="Email Address">
+              <input id="email-yui_3_17_2_22_1440713902689_8357-field" class="newsletter-form-field-element field-element" name="email" x-autocompletetype="email" type="email" spellcheck="false" placeholder="Email Address">
             </div>
           
 
@@ -5554,5 +5548,6 @@ window.YUI&&YUI.add("squarespace-imageloader",function(a){});
   
     <script type="text/javascript" src="/src/books.js"></script>
     <script type="text/javascript" src="/src/load-books.js"></script>
+    <script type="text/javascript" src="/src/submit-to-mailchimp.js"></script>
 
 <script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script></body></html>
