@@ -1,7 +1,7 @@
 <?php
 
 include dirname(__FILE__).'/mailchimp.php';
-$api = 'f1440ab2ace46f27a645bdbc67ef381e-us4';
+$api = getenv('MAILCHIMP_ID');
 $listid = 'b2e037880a';
 
 $mailchimp = new \Drewm\MailChimp($api);
@@ -18,5 +18,4 @@ if(isset($post['email']) && is_string($post['email']) && strlen($post['email']) 
     'replace_interests' => false,
     'send_welcome' => false,
   ));
-  print_r($result);
 }
