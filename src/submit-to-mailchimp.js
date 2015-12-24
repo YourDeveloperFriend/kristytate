@@ -15,7 +15,7 @@
           alert('booya!');
         }
       };
-      xhttp.open("POST", "submit-email.php", true);
+      xhttp.open("POST", "/submit-email.php", true);
       xhttp.send('email=' + encodeURIComponent(email));
     }
   });
