@@ -1,13 +1,7 @@
 <?php
 
-include dirname(__FILE__).'/mailerlite/src/Common/ApiConstants.php';
-include dirname(__FILE__).'/mailerlite/src/Common/RestClient.php';
-include dirname(__FILE__).'/mailerlite/src/MailerLite.php';
-
 $API_KEY = getenv('MAILERLITE_KEY');
 $listId = '6065355';
-
-$ML_Subscribers = new MailerLite\Subscribers($API_KEY);
 
 $post = array();
 parse_str(file_get_contents('php://input'), $post);
