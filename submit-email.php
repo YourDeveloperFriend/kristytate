@@ -19,11 +19,10 @@ if(isset($post['email']) && is_string($post['email']) && strlen($post['email']) 
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
   curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-    'X-MailerLite-ApiKey' => $API_KEY,
-    'Content-Type' => 'application/json',
-    'Content-Length' => strlen($field_string),
+    "X-MailerLite-ApiKey: $API_KEY",
+    "Content-Type: application/json",
+    "Content-Length: " . strlen($field_string),
   ));
 
   $result = curl_exec($ch);
-  print $result;
 }
