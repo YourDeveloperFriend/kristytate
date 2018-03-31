@@ -1,5 +1,115 @@
 
 window.BOOKS = [{
+  href: 'https://www.amazon.com/Grace-Mirror-Fairy-Tale-Found/dp/1521118736',
+  image: 'GraceInTheMirror',
+  description: [
+'Fairy tales can come true. But it’s terrifying when it happens to you.',
+'Grace James thinks having to wear a hand-me-down uniform while trying to fit into her posh new school in glitzy Orange County is bad, but being followed to class by seven little angry men is worse. The dwarfs believe that Grace has stolen the magic mirror, and they want it back.',
+'Opponents become allies and soon Grace can’t tell who is friend or foe and what is real or merely a fairy tale, so she cooks up a scheme that will take her back home to Oregon where life made sense—away from her stingy grandparents and her miniature stalkers. But a frantic cast of fairy tale characters have plans of their own that may or may not include a happily ever after.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Edit-short-story-Kristy-Tate-ebook/dp/B01N7W0JLS',
+  image: 'Edit',
+  description: [
+'This short story is based on true events. After finishing my novel Hailey’s Comments, I made a goal to query fifty agents. Soon, the rejection letters were flying in, each bringing a blow to my fragile ego. We were vacationing in the San Juan Islands with my husband’s family. I hadn’t written anything in weeks. When we visited Victoria, BC I knew I had to see Craigdarroch Castle. My novel, Hailey’s Comments takes place on a fictional island in the Pacific Northwest. The Dunsmuir home is a stone Victorian mansion, complete with turret and a widow’s walk that overlooks the ocean.',
+'This is where fiction and reality collided and left me forever changed.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Return-Cinder-short-Kristy-Tate-ebook/dp/B01N1VJ1EE',
+  image: 'ReturnToCinder',
+  description: [
+'Inspired by actual events. A mechanical malfunction detours a woman’s quick road trip, upsetting not only her weekend plans but forever altering her future.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Witch-One-prequel-Ways-ebook/dp/B073QZR3RV',
+  image: 'WitchOne',
+  description: [
+'When Evelyn Marston is offered a shot at writing for Hartly High’s newspaper she’s thrilled. The only stipulation is she has to attend the school dance as a reporter, so when a trio of guys claim she asked them to the dance, she loses her cool. Literally. And burns down the science building.',
+'Evie learns a few things:',
+'1. There are witches in every school and in every situation.',
+'2. A fire isn’t the scariest thing that can happen in high school.',
+'3. Sometimes the most frightening thing of all, the most terrifying to face, is yourself.',
+'Witch One is the short story prequel to the Kindle Scout winning novel, Witch Ways by Kristy Tate.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Witch-Winter-Ways-Book-ebook/dp/B014QDXSVE/',
+  image: 'WitchWinter',
+  description: [
+'Despite her shaky beginning at Despaign Academy, a school built on the property of Connecticut’s last convicted witch, Evelynn Marston finds friends and hopes to score a reporter position on the school’s newspaper. But in a place founded on a bedrock of magic and mystery, Evie discovers there are some willing to summon great evil to gain power. When a friend’s life hangs in the balance, Evie gathers her wits and a heaping dose of her own brand of magic to right a terrible wrong, never suspecting the life she saves might be her own.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Witch-Wishes-Ways-Book-ebook/dp/B01ATTOP52/',
+  image: 'WitchWishes',
+  description: [
+'It’s the beginning of the holiday break, but Evie Marston isn’t feeling the Christmas spirit. And Birdie, Evie\'s grandmother and self-proclaimed witch, thinks she knows why. After Evie confronted the Creature of the Chasm something happened to magic and without it Christmas just isn\'t the same. Decorations have been replaced by store advertisements, and everyone has started referring to Christmas as Shopping Day.',
+'Evie doesn’t know why or how that happened, but she does know that somehow, someway she must summon and restore the magic the earth and all her people have lost.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Little-White-Christmas-Lie-ebook/dp/B01MPZJA14/',
+  image: 'Lie',
+  description: [
+'Carson Trent doesn\'t know that the beautiful Millie Cruise who literally falls into his lap on the morning train is really Camille Harper, a rock star of the romance industry.',
+'Millie doesn\'t know she is headed for Carson\'s grandmother\'s picture perfect inn in a quaint New England town.',
+'Neither Carson or Millie know that their lives are about to spin out of control thanks to a patch of black ice, a cow, and a little white Christmas lie.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Baby-Blue-Christmas-Kristy-Tate-ebook/dp/B077JGFM46/',
+  image: 'BabyBlue',
+  description: [
+'After the sudden death of baby Jamison’s parents, custody is awarded to both his aunt Sophie Rossi and his uncle Luke Mason. With Luke nowhere to be found, Sophie quits her prestigious job in San Francisco and moves into her sister’s farmhouse in Shell Beach to care for Jamison. After six months, she still struggles to fit into her sister’s capable shoes.',
+'Then Luke Mason resurfaces without explanation and wants to be a part of Jamison\'s life.',
+'Sophie resents his long absence, secrets, and interference. Plus, she hasn’t really forgiven him for calling her a sofa when they were in high school.',
+'As Christmas nears, Sophie and Luke’s love for Jamison draws them together, causing them to rethink their plans for the future and redefine their ideas family.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Anywhere-Else-Very-Short-Story-ebook/dp/B01HON0TI8/',
+  image: 'Anywhere',
+  description: [
+'Madeline sneaks into her estranged husband’s home with a burning for retaliation. What she finds in a locked closet forever changes her mind, her heart, and her future. This is a very short story of a marriage and a life that ended too soon.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Seadrift-Kristy-Tate-ebook/dp/B0764MVQRR/',
+  image: 'Seadrift',
+  description: [
+'Life is looking up for Maisie Trent. Since the exciting, handsome, and wealthy Paul Leon wandered into her aunt\'s antique shop and swept her off her feet, she is taking her life off hold. No more marking time while dabbling in the history she\'s writing about Laguna Beach.',
+'But Laguna Beach, a place of perpetual blue summer skies, artist enclaves, and lazy sandy shores, has another side fused with scandal, the counterculture and something called Orange Sunshine.',
+'When Maisie tries to help a local homeless man, she uncovers a deadly string of events hidden beneath Laguna Beach\'s cheerful surface. And someone will kill to keep those secrets buried in the sand.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Menagerie-Kristy-Tate-ebook/dp/B01LDTR2PW/',
+  image: 'Menagerie',
+  description: [
+'Everyone talks to animals. Some do it every day, although very few stop to listen for a reply. Lizbet Wood does, and this is just one of the things that set her apart. She really doesn’t understand how different she is until violence shatters her solitary existence.',
+'While Lizbet seeks to understand why mother sought refuge on a deserted island in the Pacific Northwest, she comes face to face with the dangers her mother tried, but failed to escape. When her mother is gravely injured, Lizbet is forced from the island and thrust into a world even more complex and threatening than she could have ever imagined. A world where the animals have no say…or do they?',
+  ],
+}, {
+  href: 'https://www.amazon.com/Melange-Menagerie-Book-Kristy-Tate-ebook/dp/B01N0GS0WB/',
+  image: 'Melange',
+  description: [
+'Lizbet and Declan are on the brink of their lives. After graduation, Declan plans on leaving for college, but his world is turned upside down when his grandfather is attacked by wolves. Lizbet draws upon her ability to communicate with animals to try and find the wolves responsible, but she soon discovers the wolves have terrifying abilities of their own, capable of destroying not only Lizbet and Declan’s plans for their future but also their hearts.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Melee-Menagerie-Book-Kristy-Tate-ebook/dp/B074MJKS1Y/',
+  image: 'Melee',
+  description: [
+'The third installment in the mesmerizing Menagerie series from the award-winning, bestselling author Kristy Tate.',
+'Lizbet Wood finally feels at home. For the first time ever, she has friends—human friends—she can trust, a group to which she can belong. Declan has drawn her into his circle and surrounded her with love.',
+'But just as Lizbet begins to feel that her new world makes sense, everything changes. Including Declan. And the changes are frightening.',
+'Friends can lie.',
+'Dreams can deceive.',
+'Certainties can shift.',
+'Slowly, Lizbet realizes that maybe the most terrifying changes are the ones she’ll have to make to survive.',
+  ],
+}, {
+  href: 'https://www.amazon.com/Rewriting-Rita-Seattle-Fire-Book-ebook/dp/B078SZS99Z/',
+  image: 'RewritingRita',
+  description: [
+'Reeling with grief and self-doubts, Addison Mills never suspects her life is about to change when a stranger gifts her a manuscript and asks her to rewrite the ending.',
+'The story is of Rita Michaels who refused to bend to the dictates of New York’s high society. When her mortified parents ship her off to the wilds of Washington territory, Rita, itching for adventure has no intention to stay in the dreary soggy Seattle. When the opportunity comes to join a traveling theater troupe, Rita sets out to create the life she deserves, but instead finds much more adventure than even she desired or dreamed of.',
+'As Addison reads of Rita\'s rebellion, she confronts the dark corners in her own life and faces her faulty perceptions about herself and those she loves. Addison realizes she must not only rewrite Rita’s story, but also her own.',
+'Portions of Rewriting Rita were formally known as Rescuing Rita.',
+  ],
+}, {
   href: 'http://www.amazon.com/Witch-Ways-Kristy-Tate-ebook/dp/B00ZIY5IYQ/',
   image: 'WitchWays',
   description: [
@@ -36,12 +146,6 @@ window.BOOKS = [{
 'When love and hearts doth combine. ',
 'When Becca Martin stumbles into the Witching Well, she finds that all of her medical training can’t protect her from the dangers of 1870 Colorado and the charms of Clint Warwick. Convinced that her excursion into a distant past and place is nothing more than a delusion, she indulges in a fantastical romance, but when hostilities take a deadly turn, Becca fears she’ll lose not only her heart, but perhaps a future she could never have imagined. ',
 'From a modern day New York City mental hospital to the Rocky Mountains of the Wild West, The Cowboy Encounter is a romantic romp that proves once again that love is timeless. Book two, The Witching Well. ',
-  ],
-}, {
-  href: 'http://www.amazon.com/Witch-Winter-Ways-Book-ebook/dp/B014QDXSVE',
-  image: 'WitchWinter',
-  description: [
-    'Despite her shaky beginning at Despaign Academy, a school built on the property of Connecticut’s last convicted witch, Evelynn Marston finds friends and hopes to score a reporter position on the school’s newspaper. But in a place founded on a bedrock of magic and mystery, Evie discovers there are some willing to summon great evil to gain power. When a friend’s life hangs in the balance, Evie gathers her wits and a heaping dose of her own brand of magic to right a terrible wrong, never suspecting the life she saves might be her own.',
   ],
 }, {
   href: 'http://www.amazon.com/Beyond-Fortunetellers-Tent-time-travel-romance-ebook/dp/B00H2CA18U',
